@@ -1,0 +1,54 @@
+#contact { 
+
+    margin: 4em auto;
+    width: 100px; 
+    height: 30px; 
+    line-height: 30px;
+    background: teal;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  
+  #contact:hover { background: #666; }
+  #contact:active { background: #444; }
+  
+  #contactForm { 
+    display: none;
+  
+    border: 6px solid salmon; 
+    padding: 2em;
+    width: 400px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
+    
+  }
+  
+ 
+  @-moz-document url-prefix() {
+      .form-control{
+        height: auto;
+      }
+  }
+  .panel-primary{
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  .panel-primary>.panel-heading {
+      color: #fff;
+      font-size: 20px;
+      background-color: #2c3e50;
+      border-color: #2c3e50;
+  }
+  .btn-warning{
+    background-color: transparent;
+    border-color: #bdc3c7;
+  }
+  
