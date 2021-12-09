@@ -118,6 +118,8 @@ window.onclick = function (event) {
     }
 }
 
+
+
 $(function () {
 
     // contact form animations
@@ -136,3 +138,7 @@ $(function () {
 
 });
 
+function myhiddendiv() {
+    var T = document.getElementById("testing-hidden");
+    T.style.display = "block";  // <-- Set it to block
+}
